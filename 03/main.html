@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <title>Naruto</title>
+  <link rel="icon" href="naruto.jpg">
+
+  <link href="https:///npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <!-- width="500" height="600" -->
+   <!-- img src="naruto-uzumaki.jpg" alt="naruto"--> 
+
+  <main class="container text-center pb-5 pt-5 mt-5">
+    <section>
+
+      <input type="radio" class="btn-check" name="options-kata" id="success-kata" autocomplete="off" checked>
+      <label class="btn btn-outline-success" for="success-kata">Так</label>
+
+      <input type="radio" class="btn-check" name="options-kata" id="danger-kata" autocomplete="off" onclick="changeDone()">
+      <label class="btn btn-outline-danger" for="danger-kata">Ні</label>
+    </section>
+
+    <section>
+      <p>Уроки зроблені?</p>
+
+      <input type="radio" class="btn-check" name="options-learnt" id="success-learnt" autocomplete="off" checked>
+      <label class="btn btn-outline-success" for="success-learnt">Так</label>
+
+      <input type="radio" class="btn-check" name="options-learnt" id="danger-learnt" autocomplete="off" onclick="changeDone()">
+      <label class="btn btn-outline-danger" for="danger-learnt">Ні</label>
+    </section >
+
+    <section class="mt-5">
+      <button type="button" class="btn btn-outline-warning"
+      onclick="result()">результат</button>
+    </section>
+
+
+    <section id="result-tab" class="mt-5" style="display: none">
+      <input type="radio" class="btn-check" name="options-play" id="success-play" autocomplete="off" checked>
+      <label class="btn btn-outline-success" for="success-play">Грати в планшет</label>
+
+      або 
+
+      <input type="radio" class="btn-check" name="options-play" id="danger-play" autocomplete="off">
+      <label class="btn btn-outline-danger" for="danger-play">Дивитись наруто</label>
+    </section >
+
+  </main>
+  
+  <!-- your content here... -->
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

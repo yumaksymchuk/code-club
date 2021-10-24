@@ -1,0 +1,33 @@
+ul {
+	color: #0000ff;
+}
+
+
+ul ul{
+color: #ff0000;	
+}
+
+* {
+  background: #fffb00;
+}
+
+h1 {  background: #2cff00;
+
+}
+
+
+
+
+* {
+       border: 1px double  green;   
+}
+
+
+ol {
+  color: #0000ff;
+}
+
+
+ol ol {
+color: #ff0000; 
+}
