@@ -1,13 +1,15 @@
 * {
-       border: 50px double  green;   
-       background-color:#00cecf;
+      border: 50px double  green;   
+      background-color:#00cecf;
+      font-family: "Helvetica", sans-serif;
+      color: purple;
 }
 
 p {
- font-size:2.5em ;
-       text-align: center;
+      font-size:2.5em ;
+      text-align: center;
 }
 
 p {
-    background-color: Orange;
+      background-color: Orange;
 }
