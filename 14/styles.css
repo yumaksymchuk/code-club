@@ -1,0 +1,17 @@
+body {
+  background-color: DodgerBlue;
+  font-family: "Helvetica", sans-serif;
+  color: purple;
+}
+
+p {
+    background-color: MediumSeaGreen;
+}
+
+h1 {
+    background-color:#00cecf;
+}
+
+hr {
+    background-color: rgb(1, 191, 205);
+}
